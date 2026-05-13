@@ -9,8 +9,7 @@
 ---
 
 ## 🎬 Demo Output
-<video src="./assets/output_web.mp4" controls="controls" style="max-width: 100%;">
-</video>
+<img width="800" height="450" alt="Image" src="https://github.com/user-attachments/assets/576e4683-c9ea-4af3-ace7-31268d24ef54" />
 
 ---
 
