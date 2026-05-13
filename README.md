@@ -1,7 +1,9 @@
 # 🎯 Multi-Object Tracking with YOLO26x + BoT-SORT
 
 **Course:** Introduction to Computer Vision (503080)
+
 **Dataset:** MOT17-02-FRCNN
+
 **University:** Ton Duc Thang University
 
 ---
