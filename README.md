@@ -53,7 +53,7 @@ This project implements **Multi-Object Tracking (MOT)** using:
 | Resource | Link |
 |----------|------|
 | 📹 Output Video | [Google Drive](https://drive.google.com/drive/folders/1YCrAn-Zkrl9ttViKloY5BfcWx9RYos_z?usp=sharing) |
-| 📓 Notebook | [Google Drive](https://drive.google.com/drive/folders/1YCrAn-Zkrl9ttViKloY5BfcWx9RYos_z?usp=sharing) |
+| 📓 Notebook | [Google Drive](https://colab.research.google.com/drive/1Vhjny5sPQHMNM1lo519nVJVm18CA9T8U?usp=sharing) |
 
 ---
 
