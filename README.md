@@ -6,6 +6,11 @@
 
 ---
 
+## 🎬 Demo Output
+https://github.com/HoaiAn001/CV_TDTU_Final/assets/output_web.mp4
+
+---
+
 ## 📋 Overview
 
 This project implements **Multi-Object Tracking (MOT)** using:
@@ -16,61 +21,10 @@ This project implements **Multi-Object Tracking (MOT)** using:
 
 ---
 
-## 📁 Project Structure
+## 🚀 Quick Start (Google Colab)
 
-
----
-
-## ⚙️ Requirements
-
-```bash
-pip install ultralytics
-pip install lap
-pip install trackeval
-```
-
----
-
-## 🚀 Quick Start
-
-### 1. Clone this repo
-```bash
-git clone https://github.com/username/CV_Final.git
-cd CV_Final
-```
-
-### 2. Prepare dataset
-Upload `MOT17-02-FRCNN` folder to:
-CV_Final/data/MOT17-02-FRCNN/
-
-### 3. Run on Google Colab
-Open `MSSV.ipynb` in Google Colab and run cells sequentially.
-
-### 4. Run locally
-```bash
-cd src
-python tracking.py
-```
-Press `q` to stop realtime display.
-
----
-
-## 🔧 Custom BoT-SORT Configuration
-
-```yaml
-tracker_type: botsort
-track_high_thresh: 0.2      # detection threshold (stage 1)
-track_low_thresh: 0.05      # detection threshold (stage 2)
-new_track_thresh: 0.4       # threshold to init new track
-track_buffer: 90            # frames to keep lost tracks (3s @ 30fps)
-match_thresh: 0.7           # association similarity threshold
-fuse_score: true            # fuse detection score with IoU
-gmc_method: sparseOptFlow   # global motion compensation
-proximity_thresh: 0.5
-appearance_thresh: 0.25
-with_reid: false
-```
-
+### 1. Open Notebook
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/Y)
 ---
 
 ## 📊 Results
