@@ -9,7 +9,7 @@
 ---
 
 ## 🎬 Demo Output
-<video src="https://github.com/HoaiAn001/CV_TDTU_Final/assets/output_web.mp4" controls="controls" style="max-width: 100%;">
+<video src="./assets/output_web.mp4" controls="controls" style="max-width: 100%;">
 </video>
 
 ---
