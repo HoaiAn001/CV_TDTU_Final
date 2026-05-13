@@ -21,22 +21,17 @@ This project implements **Multi-Object Tracking (MOT)** using:
 
 ---
 
-## 🚀 Quick Start (Google Colab)
-
-### 1. Open Notebook
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/Y)
----
-
 ## 📊 Results
 
-### Metrics Comparison
+### Final Metrics (YOLO26x + Custom BoT-SORT)
 
-| Model | HOTA | MOTA | IDF1 | IDSW |
-|-------|------|------|------|------|
-| YOLOv8s | 30.47% | 11.18% | 31.37% | 49 |
-| YOLO26n | 33.68% | 26.87% | 38.69% | 40 |
-| YOLO26x (imgsz=1920) | 34.27% | 34.77% | 43.85% | 153 |
-| **YOLO26x + custom yaml** | **36.25%** | **36.94%** | **43.31%** | 143 |
+| Metric | Value | Description |
+|--------|-------|-------------|
+| **HOTA** | **36.25%** | Overall performance |
+| **MOTA** | **36.94%** | Detection accuracy |
+| **IDF1** | **43.31%** | Association accuracy |
+| IDSW | 143 | ID switches |
+| CLR_FP | 1,090 | False positives |
 
 ### Comparison with Original BoT-SORT Paper
 
@@ -51,9 +46,12 @@ This project implements **Multi-Object Tracking (MOT)** using:
 
 ---
 
-## 🎬 Output Video
+## 🎬 Output Video & Source Code
 
-> 📎 [https://drive.google.com/drive/folders/1YCrAn-Zkrl9ttViKloY5BfcWx9RYos_z?usp=sharing](#) ← thay link Drive của bạn vào đây
+| Resource | Link |
+|----------|------|
+| 📹 Output Video | [Google Drive](https://drive.google.com/drive/folders/1YCrAn-Zkrl9ttViKloY5BfcWx9RYos_z?usp=sharing) |
+| 📓 Notebook | [Google Drive](https://drive.google.com/drive/folders/1YCrAn-Zkrl9ttViKloY5BfcWx9RYos_z?usp=sharing) |
 
 ---
 
@@ -64,7 +62,7 @@ This project implements **Multi-Object Tracking (MOT)** using:
 - [TrackEval (JonathonLuiten)](https://github.com/JonathonLuiten/TrackEval)
 - [MOT Challenge Dataset](https://docs.ultralytics.com/datasets/track/)
 - [Introduction to MOT (Datature)](https://datature.io/blog/introduction-to-multiple-object-tracking-and-recent-developments)
-- [LearnOpenCV - YOLOv8 Tracking](https://learnopencv.com/yolov8-object-tracking-and-counting-with-opencv/)
+- [LearnOpenCV - YOLO Tracking](https://learnopencv.com/yolov8-object-tracking-and-counting-with-opencv/)
 
 ---
 
@@ -72,9 +70,9 @@ This project implements **Multi-Object Tracking (MOT)** using:
 
 | Student ID | Name |
 |------------|------|
-| MSSV | Họ và tên |
 | 52300088 | Lê Hoài An |
 | 52300110 | Ngô Trọng Hữu |
+
 ---
 
 ## 📄 License
