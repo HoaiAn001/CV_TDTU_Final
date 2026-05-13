@@ -59,10 +59,10 @@ MyDrive/CV_Final/data/MOT17-02-FRCNN/
 | Cell 1 | Install dependencies |
 | Cell 2 | Mount Drive & set paths |
 | Cell 3 | Verify dataset structure |
-| Cell 4 | Run YOLO26x + BoT-SORT tracking, export video & .txt |
-| Cell 5 | Patch NumPy compatibility for TrackEval |
-| Cell 6 | Prepare TrackEval folder structure |
-| Cell 7 | Evaluate HOTA / MOTA / IDF1 |
+| Cell 4 | Run** YOLO26x** + **BoT-SORT** tracking, export video & .txt |
+| Cell 5 | Patch **NumPy **compatibility for **TrackEval** |
+| Cell 6 | Prepare **TrackEval** folder structure |
+| Cell 7 | Evaluate ** HOTA / MOTA / IDF1** |
 
 ---
 
@@ -138,6 +138,9 @@ significantly.
 ## Results
 
 ### Final Metrics (YOLO26x + Custom BoT-SORT)
+
+> **Note:**The final metrics below represent the cumulative result of all
+> optimizations combined (using imgsz=1280 along with the tuned track_buffer, new_track_thresh, and custom botsort.yaml).
 
 | Metric | Value | Description |
 |--------|-------|-------------|
