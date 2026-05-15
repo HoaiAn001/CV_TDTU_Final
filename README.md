@@ -132,6 +132,34 @@ The gap is expected — the original paper uses a detector fine-tuned on MOT17 w
 
 ---
 
+## Limitations & Future Work
+
+**Limitations**
+
+This project uses a COCO-pretrained YOLO26x without fine-tuning, as required
+by the assignment. The domain gap between COCO (general objects) and MOT17
+(crowded pedestrian scenes) limits Recall — particularly for small or heavily
+occluded pedestrians — which directly caps MOTA and HOTA below the levels
+reported in the original BoT-SORT paper.
+
+Hardware constraints (Google Colab T4, no persistent sessions) also prevented
+fine-tuning on the full MOT17 training set (~5.5GB, 8–10 hours of training).
+
+**Future Work**
+
+Two directions are proposed to push performance toward 50–65% HOTA:
+
+1. **Fine-tune on CrowdHuman** — adapting the detector to dense pedestrian
+   scenes would significantly improve Recall and reduce false negatives (CLR_FN),
+   which currently stands at 9,433 missed detections out of 18,581 ground truth.
+
+2. **Stronger ReID** — integrating a dedicated person ReID model trained on
+   MSMT17 (e.g. OSNet) with proper weight loading would improve association
+   accuracy after long occlusions, expected to increase IDF1 beyond the current
+   44.36%.
+
+---
+
 ## Output
 
 | Resource | Link |
