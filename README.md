@@ -40,6 +40,7 @@ MyDrive/CV_Final/
 │   ├── img1/          ← frames from MOT17-02-FRCNN
 │   └── gt/gt.txt      ← ground truth
 └── results/           ← auto-created
+└── trackeval/         ← contain results of metrics
 ```
 
 **3. Run all cells sequentially**
