@@ -8,7 +8,7 @@
 
 ## Demo Output
 
-<img width="800" height="450" alt="Tracking demo" src="https://github.com/user-attachments/assets/576e4683-c9ea-4af3-ace7-31268d24ef54" />
+<img width="800" height="450" alt="Image" src="https://github.com/user-attachments/assets/75f3b0fd-205d-41fb-949d-4c95d9bd0752" />
 
 ---
 
